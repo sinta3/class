@@ -20,7 +20,7 @@ class BangunDatar {
     }
     segitigaSiku() {
         let luas = (this.alas * this.tinggi) / 2;
-        let mi = sqrt(this.alas ** 2 + this.tinggi ** 2);
+        let mi = Math.sqrt(this.alas ** 2 + this.tinggi ** 2);
         let kel = mi + this.alas + this.tinggi;
         console.log(`luas dan keliling segitga siku: ${luas} dan ${kel}`);
     }
